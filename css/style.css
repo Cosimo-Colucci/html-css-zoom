@@ -1,0 +1,27 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.relative{
+    position: relative;
+}
+.flex{
+    display: flex;
+}
+.flex-end{
+    justify-content: end;
+}
+
+.fixed{
+    position: fixed;
+    z-index: 1;
+}
+
+div.navigation-button{
+    width: 100vw;
+}
+
+div.navigation-button ul li{
+    list-style-type: none;    
+}
