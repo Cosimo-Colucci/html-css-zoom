@@ -3,19 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .relative{
     position: relative;
+    height: 100px;
+    note ( da rimuovere)
+
 }
+
 .flex{
     display: flex;
 }
+
 .flex-end{
     justify-content: end;
+}
+
+.space-between{
+    justify-content: space-between
 }
 
 .fixed{
     position: fixed;
     z-index: 1;
+}
+
+.starred-button{
+    background-color: #4a4a4a;
+    color: red;
+    align-items: center;
 }
 
 div.navigation-button{
@@ -25,3 +41,9 @@ div.navigation-button{
 div.navigation-button ul li{
     list-style-type: none;    
 }
+
+footer{
+    background-color: #222222;
+    color: white;
+}
+
