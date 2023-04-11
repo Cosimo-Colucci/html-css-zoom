@@ -6,9 +6,6 @@
 
 .relative{
     position: relative;
-    height: 100px;
-    note ( da rimuovere)
-
 }
 
 .flex{
@@ -27,7 +24,11 @@
     position: fixed;
     z-index: 1;
 }
-
+.name-card{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 .starred-button{
     background-color: #4a4a4a;
     color: red;
