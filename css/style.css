@@ -8,11 +8,17 @@
     position: relative;
 }
 
+.navigation-button{
+    height: 30px;
+    margin-top: 1rem;
+}
+
 .flex{
     display: flex;
 }
 
-.flex-end{
+.button{
+
     justify-content: end;
 }
 
@@ -30,11 +36,13 @@
 }
 
 .card-container{
-    background-color: #000000;
+ width: 100vw; 
+ padding: 4rem 2rem 0 2rem;  
 }
 
 .card{
-    width: calc(100vw / 6);
+    width: calc(100% / 6);
+    min-width: 300px;
 }
 
 .name-card{
@@ -50,8 +58,14 @@
     align-items: center;
 }
 
+main{
+    background-color: #000000;
+    
+}
+
 div.navigation-button{
     width: 100vw;
+    height: 30px;
 }
 
 div.navigation-button ul li{
